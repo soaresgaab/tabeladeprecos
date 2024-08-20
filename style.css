@@ -2,7 +2,7 @@
 body {
     font-family: Titillium Web;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 .Container {
@@ -11,24 +11,7 @@ body {
     justify-content: center; 
     padding: 20px; 
     background: #F8FAFC;
-    gap: 20px;
-}
-
-.subcaixa {
-    display: flex;
-    z-index: 1;
-    background-color: #FBA94C;
-    color: #0F172A;
-    position: fixed;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: 700;
-    top: 5px;
-    height: 34px;
-    left: 46%;
-    width: 133px;
-    align-items: center;
-    justify-content: center;
+    gap: 10px;
 }
 
 .caixa {
@@ -146,6 +129,6 @@ body {
 
     .caixa {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
